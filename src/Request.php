@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @see       https://github.com/gralhao/gralhao-test
+ * @copyright https://github.com/gralhao/gralhao-test/blob/master/COPYRIGHT.md
+ * @license   https://github.com/gralhao/gralhao-test/blob/master/LICENSE.md
+ */
+
 declare(strict_types=1);
 
 namespace Gralhao\Test;
