@@ -24,7 +24,7 @@ class TestCase extends PhpUnitTestCase
      *
      * @return Bootstrap
      */
-    public function bootstrap(): Bootstrap
+    protected function bootstrap(): Bootstrap
     {
         $this->bootstrap = new Bootstrap();
         $this->app = $this->bootstrap->getApp();
@@ -36,7 +36,7 @@ class TestCase extends PhpUnitTestCase
      *
      * @return \Phalcon\Mvc\Micro
      */
-    public function getApp(): \Phalcon\Mvc\Micro
+    protected function getApp(): \Phalcon\Mvc\Micro
     {
         return $this->app;
     }
@@ -46,9 +46,9 @@ class TestCase extends PhpUnitTestCase
      *
      * @param Request $request
      *
-     * @return [type]
+     * @return \Phalcon\Http\Response
      */
-    public function dispatch(Request $request)
+    protected function dispatch(Request $request): \Phalcon\Http\Response
     {
         $this->app->di->set('request', $request);
         ob_start();
