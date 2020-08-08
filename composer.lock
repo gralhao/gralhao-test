@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc8ae79b59c7b9c2331bf247b0605ef8",
+    "content-hash": "293c420f33d034aefa11ea02eeb69a68",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -75,50 +75,6 @@
                 }
             ],
             "time": "2020-05-29T17:27:14+00:00"
-        },
-        {
-            "name": "gralhao/gralhao",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gralhao/gralhao.git",
-                "reference": "0e5b5a7ce9655c9c384acc0590607999c688ac1e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gralhao/gralhao/zipball/0e5b5a7ce9655c9c384acc0590607999c688ac1e",
-                "reference": "0e5b5a7ce9655c9c384acc0590607999c688ac1e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-phalcon": "^4.0",
-                "php": "^7.4"
-            },
-            "require-dev": {
-                "phalcon/devtools": "dev-master",
-                "phalcon/ide-stubs": "dev-master",
-                "phpunit/phpunit": "^9.2",
-                "squizlabs/php_codesniffer": "^3.0@dev"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Gralhao\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "Phalcon API Skeleton",
-            "homepage": "https://github.com/gralhao/gralhao",
-            "keywords": [
-                "api",
-                "gralhao",
-                "phalcon",
-                "rest"
-            ],
-            "time": "2020-08-02T01:58:08+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1842,6 +1798,50 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "gralhao/gralhao",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gralhao/gralhao.git",
+                "reference": "0e5b5a7ce9655c9c384acc0590607999c688ac1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gralhao/gralhao/zipball/0e5b5a7ce9655c9c384acc0590607999c688ac1e",
+                "reference": "0e5b5a7ce9655c9c384acc0590607999c688ac1e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": "^4.0",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "phalcon/devtools": "dev-master",
+                "phalcon/ide-stubs": "dev-master",
+                "phpunit/phpunit": "^9.2",
+                "squizlabs/php_codesniffer": "^3.0@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gralhao\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Phalcon API Skeleton",
+            "homepage": "https://github.com/gralhao/gralhao",
+            "keywords": [
+                "api",
+                "gralhao",
+                "phalcon",
+                "rest"
+            ],
+            "time": "2020-08-02T01:58:08+00:00"
+        },
         {
             "name": "phalcon/ide-stubs",
             "version": "dev-master",
